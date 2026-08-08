@@ -1,5 +1,6 @@
-image: "node:18-alpine"
+image: node:18-alpine
 commands:
-  - "echo 'Starting build...'"
-  - "sleep 15"
-  - "echo 'Build finished!'"
+  - echo 'Starting build...'
+  - echo 'Running tests...'
+  - npm test # If you don't have tests configured, this will naturally fail!
+  - exit 1 # Or just force a failure with this command
