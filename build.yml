@@ -1,5 +1,4 @@
 image: "node:18-alpine"
 commands:
   - "echo 'Starting build...'"
-  - "npm install"
   - "echo 'Build finished!'"
