@@ -1,5 +1,5 @@
-image: "node:18-alpine"
-commands:
-  - "echo 'Starting build...'"
-  - "echo 'Simulating a massive failure!'"
-  - "exit 1"
+image: "node:18-alpine" 
+commands: 
+  - "echo 'Starting build...'" 
+  - "sleep 15" 
+  - "echo 'Build finished!'"
