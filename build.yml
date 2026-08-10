@@ -1,5 +1,5 @@
 image: "node:18-alpine" 
 commands: 
   - "echo 'Starting build...'" 
-  - "sleep 60" 
+  - "sleep 5" 
   - "echo 'Build finished!'"
